@@ -16,11 +16,11 @@ const Banner = () => {
         <Grid sx={styles.grid}>
           <Box sx={styles.content}>
             <Heading as="h3">
-              Great software is built with amazing developers
+              Find properties from the comfort of your phone
             </Heading>
             <Text as="p">
-              We help build and manage a team of world-class developers to bring
-              your vision to life
+              We help build and manage a team of world-class agents to provide
+              and manage your listings
             </Text>
             <Box as="form" sx={styles.form}>
               <Box as="label" htmlFor="subscribe" variant="styles.srOnly">
@@ -36,7 +36,7 @@ const Banner = () => {
                 Subscribe
               </Button>
             </Box>
-            <Box sx={styles.partner}>
+            {/* <Box sx={styles.partner}>
               <Text as="span">Sponsored by:</Text>
               <Box as="div">
                 <Image src={img1} alt="" />
@@ -47,7 +47,7 @@ const Banner = () => {
               <Box as="div">
                 <Image src={img3} alt="" />
               </Box>
-            </Box>
+            </Box> */}
           </Box>
           <Box sx={styles.image}>
             <Image src={bannerImg} alt="" />
